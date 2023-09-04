@@ -23,3 +23,6 @@ capture/
 
 # CodeChecker
 .codechecker/
+
+# ouster metadarata json
+*-metadata.json
