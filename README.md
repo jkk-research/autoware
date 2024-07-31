@@ -60,6 +60,39 @@ Autoware is an open-source software stack for self-driving vehicles, built on th
 
 To learn more about using or developing Autoware, refer to the [Autoware documentation site](https://autowarefoundation.github.io/autoware-documentation/main/). You can find the source for the documentation in [autowarefoundation/autoware-documentation](https://github.com/autowarefoundation/autoware-documentation).
 
+## Installation
+
+### Clone the repositories
+```
+git clone https://github.com/jkk-research/autoware
+cd autoware
+mkdir src
+vcs import src < autoware.repos
+```
+### Install dependencies
+```
+rosdep install --from-paths src --ignore-src --rosdistro $ROS_DISTRO -r -y
+```
+### Build
+```
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+```
+
+## Update workspace
+
+### Update the repositories
+```
+git pull
+vcs import src < autoware.repos
+vcs pull src
+```
+### Install dependencies and build
+```
+rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+```
+
 ## Repository overview
 
 - [autowarefoundation/autoware](https://github.com/autowarefoundation/autoware)
