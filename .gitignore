@@ -26,3 +26,6 @@ capture/
 
 # ouster metadarata json
 *-metadata.json
+
+# Node.js
+node_modules/
