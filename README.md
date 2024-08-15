@@ -71,7 +71,7 @@ vcs import src < autoware.repos
 ```
 ### Install dependencies
 ```
-rosdep install --from-paths src --ignore-src --rosdistro $ROS_DISTRO -r -y
+rosdep install --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
 ```
 ### Build
 ```
