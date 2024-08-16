@@ -66,6 +66,7 @@ To learn more about using or developing Autoware, refer to the [Autoware documen
 ```
 git clone https://github.com/jkk-research/autoware
 cd autoware
+./setup-dev-env.sh
 mkdir src
 vcs import src < autoware.repos
 ```
