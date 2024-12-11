@@ -116,14 +116,14 @@ repositories:
     type: git
     url: https://github.com/jkk-research/lexus3_sensor_kit_launch.git
     version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
-  sensor_kit/awsim_labs_sensor_kit_launch:
-    type: git
-    url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
-    version: main
+  #sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
+  #  type: git
+  #  url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
+  #  version: main
+  #sensor_kit/awsim_labs_sensor_kit_launch:
+  #  type: git
+  #  url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
+  #  version: main
   sensor_kit/single_lidar_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
@@ -133,10 +133,10 @@ repositories:
     type: git
     url: https://github.com/jkk-research/lexus3_vehicle_launch.git
     version: main
-  vehicle/awsim_labs_vehicle_launch:
-    type: git
-    url: https://github.com/autowarefoundation/awsim_labs_vehicle_launch.git
-    version: main
+  #vehicle/awsim_labs_vehicle_launch:
+  #  type: git
+  #  url: https://github.com/autowarefoundation/awsim_labs_vehicle_launch.git
+  #  version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
