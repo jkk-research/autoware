@@ -1,6 +1,6 @@
 # Autoware - the world's leading open-source software project for autonomous driving
 
-![Autoware_RViz](https://user-images.githubusercontent.com/63835446/158918717-58d6deaf-93fb-47f9-891d-e242b02cba7b.png)
+![Autoware_RViz](https://raw.githubusercontent.com/jkk-research/jkk-research.github.io/refs/heads/master/docs/assets/images_common/aw_sze01.png)
 
 <!--- Contributors -->
 <p align="center">
